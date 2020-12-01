@@ -1,7 +1,9 @@
 Totaltest = 500
-#Comment
-binlist = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+# mylist has all the numbers to be used in the Binary Multiplication Test
 mylist=[2,2,5,4,5,7,8,4,3,2,8,5,7,20,8,3,9,10]
+print(mylist)
+# Init binlist based on the length of mylist
+binlist = [0]*len(mylist)
 print(binlist)
 total=1
 binindex=0
